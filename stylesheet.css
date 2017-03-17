@@ -1,0 +1,32 @@
+body{
+    background-image:url(images/Page_1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 200px 300px;
+    background-repeat: repeat;
+    background-color: ;
+    /*background-blend-mode: overlay;*/
+    margin-right: 300px;
+
+
+
+}
+
+#head1 {
+    display: grid;
+    text-align: center;
+
+    height: 75px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+
+
+}
+ h1 {
+    color:green;
+
+}
+* {
+    border: 2px dashed black;
+}
