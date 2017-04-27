@@ -2,7 +2,7 @@ body{
 
 
 
-    background-color:black;
+
 
 
 
@@ -15,16 +15,22 @@ body{
     position: relative;
 
 
-    
+
     clear:left;
 }
-#flyer {
+.flyer {
 
     display: block;
-    position:relative;
-    clear: left;
-    float: right;
-    border: 2px solid #e93ac8;
+    float:right;
+
+
+}
+ p{
+    padding:10px;
+    margin:10px;
+    margin-right:700px;
+    margin-left:100px;
+    font-size:18;
 }
 #head1 {
     position: relative;
@@ -34,7 +40,7 @@ body{
 
 
 
-    background-color: #5c8686;
+
 
     height: 75px;
 
@@ -47,15 +53,16 @@ footer {
     float: inherit;
 }
  h1 {
-    color:green;
+
     position: relative;
     height:55px;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 
 
 }
 * {
-    border: 2px dashed blue;
-    margin: 0;
+
+
 }
