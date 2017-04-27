@@ -1,32 +1,61 @@
 body{
-    background-image:url(images/Page_1.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 200px 300px;
-    background-repeat: repeat;
-    background-color: ;
-    /*background-blend-mode: overlay;*/
-    margin-right: 300px;
+
+
+
+    background-color:black;
 
 
 
 }
 
+
+
+#leftbox {
+    display: block;
+    position: relative;
+
+
+    
+    clear:left;
+}
+#flyer {
+
+    display: block;
+    position:relative;
+    clear: left;
+    float: right;
+    border: 2px solid #e93ac8;
+}
 #head1 {
-    display: grid;
+    position: relative;
+    display: block;
     text-align: center;
 
+
+
+
+    background-color: #5c8686;
+
     height: 75px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
 
 
+
+}
+footer {
+    position: relative;
+    clear: both;
+    float: inherit;
 }
  h1 {
     color:green;
+    position: relative;
+    height:55px;
+    margin-top: 20px;
+
+
 
 }
 * {
-    border: 2px dashed black;
+    border: 2px dashed blue;
+    margin: 0;
 }
